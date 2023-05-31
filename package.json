@@ -1,14 +1,14 @@
 {
-  "name": "discordjs-v14-bot-template",
-  "version": "14.0.0",
-  "description": "A Discord Bot template built by T.F.A#7524!",
+  "name": "saint-dhalmel",
+  "version": "1.5.7",
+  "description": "saint-dhalmel",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "keywords": [],
-  "author": "T.F.A#7524",
-  "license": "ISC",
+  "author": "Kali#666",
+  "license": "MIT",
   "dependencies": {
     "@discordjs/builders": "^1.6.1",
     "@discordjs/rest": "^1.7.0",
