@@ -15,7 +15,7 @@ client.on("messageCreate", async (message) => {
     } else if (message.content.toLowerCase().includes('ambatukam') || message.content.toLowerCase().includes('ambasing') || message.content.toLowerCase().includes('ambatunat')) {
         // Envoi de "ambatukam.mp4" en réponse
         message.reply({ files: ["./medias/videos/ambatukam.mp4"] });
-    } else if (message.content.toLowerCase().includes("i put the new forgis on the jeep")) {
+    } else if (message.content.toLowerCase().includes("i put the new forgis on the jeep") || message.content.toLowerCase().includes("ballin")) {
         // Envoyer la réponse du bot
         message.reply({ files: ["./medias/videos/harlem.mp4"] });
     } else if (message.content.toLowerCase().includes("t'as mis le kimono")) {
