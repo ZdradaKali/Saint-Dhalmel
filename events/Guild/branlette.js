@@ -12,10 +12,10 @@ client.on("messageCreate", async (message) => {
     if(message.author.bot) return;
 
     const lastWord = message.content.split(/\s+/).pop();
-    const branlette = ["me branler", "me lebron james", "me masturber", "me pignoler", "branler", "masturbation", "m'astiquer", "dégorger le poireau"];
-    const laBranlette = ["se branler", "se lebron james", "se masturber", "se pignoler", "s'astiquer"];
+    const branlette = ["me branler", "me lebron james", "me masturber", "me pignoler", "branler", "masturbation", "m'astiquer", "dégorger le poireau", "me pignoler", "me doigter"];
+    const laBranlette = ["se branler", "se lebron james", "se masturber", "se pignoler", "s'astiquer", "se pignoler", "se doigter"];
 
-    if(laBranlette.includes(lastWord.toLowerCase()) || (lastWord.toLowerCase() === "quoi" && !/\?$/.test(message.content))) {
+    if(laBranlette.includes(lastWord.toLowerCase()) || branlette.includes(lastWord.toLowerCase())) {
         message.reply(
           `s'il vous plaît ARRÊTEZ de notifier sur le
             serv quand vous allez vous masturber. 
